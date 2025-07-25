@@ -2,19 +2,19 @@
 
 This project implements a portable ECG (Electrocardiogram) and Pulse Oximeter monitoring system using open-source hardware tools. It is designed for real-time monitoring of heart rhythms and blood oxygen levels, offering a cost-effective solution for health diagnostics.
 
-# Motivation
+## Motivation
 
 Cardiovascular and respiratory health are critical indicators of well-being. Accurate and continuous monitoring of ECG signals and oxygen saturation (SpO2) helps detect abnormalities early, especially for patients with heart or lung conditions. This project aims to develop a compact, reliable, and affordable health monitoring device using Arduino, NodeMCU, and sensor modules like AD8232 and MAX30100.
 
-# Key Features
+## Key Features
 
-Real-time ECG signal acquisition
+- Real-time ECG signal acquisition
 
-Continuous monitoring of pulse rate and SpO2 levels
+- Continuous monitoring of pulse rate and SpO2 levels
 
-Display of heart rate and oxygen levels via serial monitor or IoT
+- Display of heart rate and oxygen levels via serial monitor or IoT
 
-Portable and low-cost hardware implementation
+- Portable and low-cost hardware implementation
 
 # Components Used
 
