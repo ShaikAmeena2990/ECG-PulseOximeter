@@ -16,36 +16,36 @@ Cardiovascular and respiratory health are critical indicators of well-being. Acc
 
 - Portable and low-cost hardware implementation
 
-# Components Used
+## Components Used
 
-Arduino Uno - Microcontroller board for ECG signal processing
+- Arduino Uno: Microcontroller board for ECG signal processing
 
-AD8232 ECG Sensor - For acquiring ECG signals
+- AD8232 ECG Sensor: For acquiring ECG signals
 
-MAX30100 Sensor - For pulse rate and SpO2 monitoring
+- MAX30100 Sensor: For pulse rate and SpO2 monitoring
 
-NodeMCU ESP8266 - WiFi-enabled microcontroller for IoT support
+- NodeMCU ESP8266: WiFi-enabled microcontroller for IoT support
 
-Jumper wires, breadboard, power supply
+- Jumper wires, breadboard, power supply
 
-# Project Workflow
+## Project Workflow
 
 1.Data Acquisition
 
-ECG signal from AD8232 sensor
+- ECG signal from AD8232 sensor
 
-Pulse rate and SpO2 from MAX30100 sensor
+- Pulse rate and SpO2 from MAX30100 sensor
 
 2.Microcontroller Interface
 
-Arduino Uno processes ECG data
+- Arduino Uno processes ECG data
 
-NodeMCU processes and transmits pulse/oxygen data via WiFi
+- NodeMCU processes and transmits pulse/oxygen data via WiFi
 
 3.Signal Processing & Display
 
-ECG displayed as analog wave via serial monitor
+- ECG displayed as analog wave via serial monitor
 
-Pulse/SpO2 values displayed numerically
+- Pulse/SpO2 values displayed numerically
 
 
