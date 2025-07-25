@@ -30,19 +30,19 @@ Jumper wires, breadboard, power supply
 
 # Project Workflow
 
-1.Data Acquisition
+1. Data Acquisition
 
 ECG signal from AD8232 sensor
 
 Pulse rate and SpO2 from MAX30100 sensor
 
-2.Microcontroller Interface
+2. Microcontroller Interface
 
 Arduino Uno processes ECG data
 
 NodeMCU processes and transmits pulse/oxygen data via WiFi
 
-3.Signal Processing & Display
+3. Signal Processing & Display
 
 ECG displayed as analog wave via serial monitor
 
